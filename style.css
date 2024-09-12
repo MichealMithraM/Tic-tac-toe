@@ -1,0 +1,33 @@
+
+body{
+    background-color: #a4b0be;
+    color:#dfe4ea ;
+}
+.game-board {
+	width: 300px;
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 0px;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	background-color: #2ed573;
+	border: 1px solid #7bed9f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.cell:hover {
+	background-color: #7bed9f;
+}

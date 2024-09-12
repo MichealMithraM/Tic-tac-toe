@@ -3,6 +3,13 @@ body{
     background-color: #f1f2f6;
     color:#dfe4ea ;
 }
+h1{
+    align-items: center;
+    color: #ff4757;
+    margin: 40px auto;
+    display: flex;
+	flex-direction: column;
+}
 .game-board {
 	width: 300px;
 	margin: 40px auto;
@@ -19,8 +26,8 @@ body{
 .cell {
 	width: 100px;
 	height: 100px;
-	background-color:#FC427B;
-	border: 1px solid #f78fb3;
+	background-color: #ff4757;
+	border: 1px solid #ff6b81;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,5 +36,5 @@ body{
 }
 
 .cell:hover {
-	background-color:#f78fb3;
+	background-color: #ff6b81;
 }

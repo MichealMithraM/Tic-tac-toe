@@ -20,14 +20,14 @@ h1{
 
 .row {
 	display: flex;
-	margin-bottom: 0px;
+	margin: 0px;
 }
 
 .cell {
 	width: 100px;
 	height: 100px;
 	background-color: #ff4757;
-	border: 5px solid #ff6b81;
+	border: 10px solid #ff6b81;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -1,6 +1,6 @@
 
 body{
-    background-color: #a4b0be;
+    background-color: #f1f2f6;
     color:#dfe4ea ;
 }
 .game-board {
@@ -19,8 +19,8 @@ body{
 .cell {
 	width: 100px;
 	height: 100px;
-	background-color: #2ed573;
-	border: 1px solid #7bed9f;
+	background-color:#FC427B;
+	border: 1px solid #f78fb3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,5 +29,5 @@ body{
 }
 
 .cell:hover {
-	background-color: #7bed9f;
+	background-color:#f78fb3;
 }
